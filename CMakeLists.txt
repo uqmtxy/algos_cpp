@@ -3,4 +3,4 @@ project(algos_cpp)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(algos_cpp merge_sort.cpp Treap.cpp segment_tree.cpp line-crossing.cpp bor.cpp)
+add_executable(algos_cpp merge_sort.cpp Treap.cpp segment_tree.cpp line-crossing.cpp k_st_bor.cpp strongly-connected.cpp)
