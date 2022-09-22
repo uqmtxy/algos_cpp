@@ -64,6 +64,12 @@ build CMakeFiles/algos_cpp.dir/segment_tree.cpp.o: CXX_COMPILER__algos_cpp_Debug
   OBJECT_DIR = CMakeFiles/algos_cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/algos_cpp.dir
 
+build CMakeFiles/algos_cpp.dir/line-crossing.cpp.o: CXX_COMPILER__algos_cpp_Debug /Users/qmtxy/CLionProjects/algos_cpp/line-crossing.cpp || cmake_object_order_depends_target_algos_cpp
+  DEP_FILE = CMakeFiles/algos_cpp.dir/line-crossing.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algos_cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/algos_cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target algos_cpp
@@ -72,7 +78,7 @@ build CMakeFiles/algos_cpp.dir/segment_tree.cpp.o: CXX_COMPILER__algos_cpp_Debug
 #############################################
 # Link the executable algos_cpp
 
-build algos_cpp: CXX_EXECUTABLE_LINKER__algos_cpp_Debug CMakeFiles/algos_cpp.dir/merge_sort.cpp.o CMakeFiles/algos_cpp.dir/Treap.cpp.o CMakeFiles/algos_cpp.dir/segment_tree.cpp.o
+build algos_cpp: CXX_EXECUTABLE_LINKER__algos_cpp_Debug CMakeFiles/algos_cpp.dir/merge_sort.cpp.o CMakeFiles/algos_cpp.dir/Treap.cpp.o CMakeFiles/algos_cpp.dir/segment_tree.cpp.o CMakeFiles/algos_cpp.dir/line-crossing.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/algos_cpp.dir
   POST_BUILD = :
