@@ -8,6 +8,7 @@
 #include <ctime>
 #include <random>
 #include <numeric>
+#include <iomanip>
 using namespace std;
 
 struct tr
