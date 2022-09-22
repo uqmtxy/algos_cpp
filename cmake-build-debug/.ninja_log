@@ -1,6 +1,6 @@
 # ninja log v5
 0	530	1663858861641591642	CMakeFiles/untitled9.dir/merge_sort.cpp.o	1a6d2c8b1fa2476c
 0	531	1663858861641805934	CMakeFiles/untitled9.dir/Treap.cpp.o	68b27e27a41421d4
-1	47	1663860190164088363	build.ninja	f049c9d56d603a6
+1	47	1663860395839351639	build.ninja	f049c9d56d603a6
 0	440	1663858978420175901	CMakeFiles/algos_cpp.dir/merge_sort.cpp.o	b2c98a199a48ae61
 2	441	1663858978421067567	CMakeFiles/algos_cpp.dir/Treap.cpp.o	d1d9f0d6afc99422
