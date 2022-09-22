@@ -118,6 +118,12 @@ build CMakeFiles/algos_cpp.dir/segment_tree_it.cpp.o: CXX_COMPILER__algos_cpp_De
   OBJECT_DIR = CMakeFiles/algos_cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/algos_cpp.dir
 
+build CMakeFiles/algos_cpp.dir/polygon_sqart_2.cpp.o: CXX_COMPILER__algos_cpp_Debug /Users/qmtxy/CLionProjects/algos_cpp/polygon_sqart_2.cpp || cmake_object_order_depends_target_algos_cpp
+  DEP_FILE = CMakeFiles/algos_cpp.dir/polygon_sqart_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/algos_cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/algos_cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target algos_cpp
@@ -126,7 +132,7 @@ build CMakeFiles/algos_cpp.dir/segment_tree_it.cpp.o: CXX_COMPILER__algos_cpp_De
 #############################################
 # Link the executable algos_cpp
 
-build algos_cpp: CXX_EXECUTABLE_LINKER__algos_cpp_Debug CMakeFiles/algos_cpp.dir/merge_sort.cpp.o CMakeFiles/algos_cpp.dir/Treap.cpp.o CMakeFiles/algos_cpp.dir/segment_tree.cpp.o CMakeFiles/algos_cpp.dir/line-crossing.cpp.o CMakeFiles/algos_cpp.dir/k_st_bor.cpp.o CMakeFiles/algos_cpp.dir/strongly-connected.cpp.o CMakeFiles/algos_cpp.dir/vec-rotation.cpp.o CMakeFiles/algos_cpp.dir/sqare_polygon.cpp.o CMakeFiles/algos_cpp.dir/ray-shooting.cpp.o CMakeFiles/algos_cpp.dir/segment-crossing.cpp.o CMakeFiles/algos_cpp.dir/djkstra.cpp.o CMakeFiles/algos_cpp.dir/segment_tree_it.cpp.o
+build algos_cpp: CXX_EXECUTABLE_LINKER__algos_cpp_Debug CMakeFiles/algos_cpp.dir/merge_sort.cpp.o CMakeFiles/algos_cpp.dir/Treap.cpp.o CMakeFiles/algos_cpp.dir/segment_tree.cpp.o CMakeFiles/algos_cpp.dir/line-crossing.cpp.o CMakeFiles/algos_cpp.dir/k_st_bor.cpp.o CMakeFiles/algos_cpp.dir/strongly-connected.cpp.o CMakeFiles/algos_cpp.dir/vec-rotation.cpp.o CMakeFiles/algos_cpp.dir/sqare_polygon.cpp.o CMakeFiles/algos_cpp.dir/ray-shooting.cpp.o CMakeFiles/algos_cpp.dir/segment-crossing.cpp.o CMakeFiles/algos_cpp.dir/djkstra.cpp.o CMakeFiles/algos_cpp.dir/segment_tree_it.cpp.o CMakeFiles/algos_cpp.dir/polygon_sqart_2.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/algos_cpp.dir
   POST_BUILD = :
